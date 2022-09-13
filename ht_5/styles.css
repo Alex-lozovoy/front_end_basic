@@ -1,6 +1,13 @@
 img {
-    height: 150px;
-    width: 200px;
+    height: 400px;
+    width: 500px;
+}
+
+.image {
+    background-color: rgb(211, 183, 238);
+}
+body {
+    background-color: rgb(211, 183, 238);
 }
 
 ol {
@@ -14,8 +21,9 @@ div {
 }
 
 span {
-  font-size: 30px;
+    font-size: 30px;
 }
+
 .description {
-   font-style: italic;
+    font-style: italic;
 }
