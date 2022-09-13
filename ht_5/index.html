@@ -1,14 +1,67 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <a href="./galery.html"><b>galery</b></a>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    
-    
+    <section class="command">
+        <div>
+            <span>$ git config --global user.name "[имя]"</span>
+            <p class="description">Устанавливает имя, которое будет отображаться в
+                поле автора у выполняемых вами коммитов
+            </p>
+        </div>
+        <div>
+            <span>$ git config --global user.email "[адрес электронной почты]"</span>
+            <p class="description">Устанавливает адрес электронной почты, который будет отображаться
+                в информации о выполняемых вами коммитах
+            </p>
+        </div>
+        <div>
+            <span>$ git init [название проекта]</span>
+            <p class="description">Создаёт новый локальный репозиторий с заданным именем
+            </p>
+        </div>
+        <div>
+            <span>$ git clone [url-адрес]</span>
+            <p class="description">Скачивает репозиторий
+                вместе со всей его историей изменений
+            </p>
+        </div>
+        <div>
+            <span>$ git status</span>
+            <p class="description">Перечисляет все новые или изменённые
+                файлы, которые нуждаются в фиксации
+            </p>
+        </div>
+        <div>
+            <span>$ git diff</span>
+            <p class="description">Показывает различия
+                по внесённым изменениям в ещё не проиндексированных файлах
+            </p>
+        </div>
+        <div>
+            <span>$ git add [файл]</span>
+            <p class="description">Индексирует указанный файл
+                для последующего коммита
+            </p>
+        </div>
+        <div>
+            <span>$ git commit -m "[сообщение с описанием]"</span>
+            <p class="description">Фиксирует проиндексированные изменения
+                и сохраняет их в историю версий
+            </p>
+        </div>
+    </section>
+
+
 </body>
+
 </html>
