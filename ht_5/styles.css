@@ -27,3 +27,12 @@ span {
 .description {
     font-style: italic;
 }
+h1 {
+    font-style: italic;
+    color: rgb(224, 28, 28);
+}
+#git {
+    font-size: 30px;
+    color: rgb(224, 28, 28);
+    font-style: italic;
+}
