@@ -1,0 +1,185 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.64em;
+    color: #000;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.bg-primary {
+    background: #EEEFF1;
+}
+
+.bg-secondary {
+    background: #34547A;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    padding: 80px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li:not(:last-child) {
+    margin-right: 42px;
+}
+
+header nav ul li a {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+header nav ul li .active a {
+    color: #34547A;
+}
+
+.promo {
+    padding: 140px 0;
+}
+
+.promo h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.66em;
+}
+
+.promo .description {
+    color: #727272;
+    margin: 60px 0;
+    width: 540px;
+}
+
+.promo a {
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.about {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.15em;
+}
+
+.about .description {
+    color: #727272;
+    width: 540px;
+    margin: 50px auto 0;
+}
+
+.projects {
+    padding: 100px 0;
+}
+
+.projects ul {
+    list-style: none;
+    text-align: center;
+}
+
+.projects ul li {
+    float: left;
+    display: inline-block;
+}
+
+.projects ul li:not(:last-child) {
+    margin-right: 45px;
+}
+
+.projects ul li img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.projects ul li h3 {
+    float: right;
+    font-size: 16px;
+    line-height: 1.62em;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.projects ul li h3 .count {
+    text-align: left;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.19em;
+    color: #FFFFFF;
+    display: block;
+}
+
+.works {
+    padding: 100px;
+}
+
+.works h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.15em;
+    text-align: center;
+    color: #000000;
+}
+
+.works .description {
+    width: 540px;
+    text-align: center;
+    color: #727272;
+    margin: 50px auto;
+}
+
+.works video {
+    width: 1110px;
+    height: 600px;
+}
+
+footer {
+    padding: 50px 0;
+}
+
+.container h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.19em;
+    color: #FFFFFF;
+}
+
+.container .copyrights {
+    font-size: 13px;
+    line-height: 1.61em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
