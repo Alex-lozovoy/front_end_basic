@@ -36,26 +36,80 @@ body {
   margin: 50px;
 }
 
-/* {
+.first_card, .card, .second_card {
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.third_conteiner .first_card div {
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+}
+
+.promo_card div {
+  width: 200px;
+  height: 200px;
+  background: #FC8F8F;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.promo_card div:not(:last-child) {
+  margin-right: 15px;
+}
+
+.second_conteiner .secondary_card div:not(:last-child) {
+  margin-right: 15px;
+}
+
+.second_conteiner .secondary_card div {
+  width: 100px;
+  height: 100px;
+  background: #FC8F8F;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.first_card, .left {
+  float: left;
+}
+
+.secondry_card, .second_card, .secondary_card, .right {
+  float: right;
+}
+
+.clearfix {
+  font-size: 0px;
+  display: table;
+}
+
+.first_card, .second_card p {
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 64px;
   line-height: 75px;
-  text-align: center;
   color: #FFFFFF;
-  padding: 63px
-}*/
-
-.first_conteiner div {
-  width: 200px;
-  height: 200px;
-  background: #FC8F8F
+  text-align: center;
 }
 
-.first_conteiner .first_card {
-  float: left;
+.secondary_card p {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  text-align: center;
 }
 
-.first_conteiner .second_card {
-  float: right;
+.promo_card p {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFFFFF;
+  text-align: center;
 }
