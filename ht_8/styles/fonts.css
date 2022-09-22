@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Inter';
+       src: local('Inter Bold'), local('Inter-Bold'),
+        url('/assets/fonts/AnyConv.com__Inter-Bold.woff2') format('woff2');
+       font-weight: 700;
+}
+@font-face {
+    font-family: 'Inter';
+       src: local('Inter Regular'), local('Inter-Regular'),
+        url('/assets/fonts/AnyConv.com__Inter-Regular.woff2') format('woff2');
+}
