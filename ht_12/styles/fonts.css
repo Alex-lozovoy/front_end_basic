@@ -1,7 +1,13 @@
 @font-face {
-    font-family: 'Roboto';
-       src: local('Roboto Bold'), local('Roboto-Bold'),
-        url('../assets/AnyConv.com__Roboto-Bold.woff2') format('woff2'),
-        url('../assets/AnyConv.com__Roboto-Bold.woff') format('woff');
-    font-weight: 700;
+    font-family: 'GraphikLCG';
+       src: local('GraphikLCG Regular'), local('GraphikLCG-Regular'),
+        url('../assets/fonts/AnyConv.com__GraphikLCG-Regular.woff2') format('woff2'),
+        url('../assets/fonts/AnyConv.com__GraphikLCG-Regular.woff') format('woff');
+        font-weight: 400;
+}@font-face {
+    font-family: 'GraphikLCG';
+       src: local('GraphikLCG Regular'), local('GraphikLCG-Regular'),
+        url('../assets/fonts/AnyConv.com__GraphikLCG-Regular.woff2') format('woff2'),
+        url('../assets/fonts/AnyConv.com__GraphikLCG-Semibold.woff') format('woff');
+    font-weight: 600;
 }
