@@ -136,7 +136,7 @@ body {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-content: center;
-  padding: 0 75px;
+  padding: 32px 0 180px 20px;
   background-color: #FFFFFF;
 }
 
@@ -187,6 +187,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0px 55px;
 }
 
 .companies_description {
@@ -303,16 +304,24 @@ body {
 
 .secondary_wrapper {
   background-color: #FFF8E4;
-   
+
+}
+
+.secondary_content {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.secondary_wrapper .secondary_content {
+  padding: 120px 55px 150px 55px;
 }
 
 .fitches {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
-  padding: 0px 115px 150px;
-  
+  gap: 20px;
+
 }
 
 .fitches_cards {
@@ -320,6 +329,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   flex: 1 1 330px;
 }
 
@@ -353,29 +363,28 @@ body {
   line-height: 25px;
   font-weight: 400;
   color: #000000;
+  text-align: center;
 }
-
-
 
 .works_wrpper {
   background-color: #FFFFFF;
-  padding: 150px 55px;
-  margin: 0 auto;
-
 }
 
-.works_section {
+.works_content {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0px auto;
+}
 
+.works_wrpper .works_content {
+  padding: 150px 55px;
 }
 
 .works {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 75px 217px;
 }
+
 
 .works_section_title {
   font-family: GraphikLCG, sans-serif;
@@ -387,13 +396,30 @@ body {
 }
 
 .works_cards {
-  max-width: 440px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
   margin: 0 10px;
+  flex: 1 1 400px;
 
+}
+
+.cards_title {
+  font-family: GraphikLCG, sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 34px;
+}
+
+.cards_description {
+  font-family: GraphikLCG, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 25px;
 }
 
 .works_cards a {
@@ -402,6 +428,7 @@ body {
   line-height: 30px;
   font-weight: 400;
   color: #000000;
+  text-decoration: underline;
 }
 
 .works_cards_img {
@@ -431,6 +458,14 @@ body {
 
 .skills_foto {
   margin-left: 50px;
+}
+
+.skills_title {
+  font-family: GraphikLCG, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 7px;
 }
 
 .management_wrapper {
@@ -496,24 +531,37 @@ body {
   margin-right: 67px;
 }
 
+.work_tools_wrapper {
+  background-color: #FFFFFF;
+
+}
+
 .work_tools {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  background-color: #FFFFFF;
+  padding: 0 55px 220px 55px;
+
 }
 
 .work_tools_title {
+  font-family: GraphikLCG, sans-serif;
+  font-size: 65px;
+  line-height: 75px;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 169px;
   max-width: 791px;
+  text-align: center;
 }
 
 .work_tools_description {
   font-family: GraphikLCG, sans-serif;
   font-size: 25px;
   line-height: 30px;
-  font-weight: 400;
   color: #000000;
+  margin-bottom: 25px;
   max-width: 539px;
   text-align: center;
 }
