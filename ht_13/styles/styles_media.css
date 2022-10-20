@@ -1,0 +1,122 @@
+@media screen and (max-width:1470px) {
+    .conteiner {
+        max-width: 970px;
+    }
+
+    .navigation>li {
+        margin-right: 35px;
+    }
+
+    .header {
+
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .conteiner {
+        max-width: 750px;
+    }
+
+    .main_section {
+        flex-direction: column-reverse;
+
+    }
+
+    .navigation>li {
+        margin-right: 25px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .buttons_first {
+        margin-bottom: 5px;
+    }
+
+    .buttons_second {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .projects_primery, .projects_secondary {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .projects_primery_cards, .projects_secondary_cards {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .logo {
+        flex-wrap: wrap;
+    }
+
+    .logo>img {
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .companies_description, .example_description, .projects_description, .primery_cards_title, .secondary_cards_title {
+        text-align: center;
+    }
+
+    .works_cards {
+        align-items: center;
+    }
+
+    .skills {
+        flex-direction: column-reverse;
+    }
+
+    .management, .management_promo, .works, .footer_main, .description_item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promo_img, .management_title {
+        margin-right: 0px;
+    }
+
+    .management_logo {
+        border-left: 0px;
+        justify-content: center;
+    }
+    .example {
+        padding: 0px 0px 0px 0px;
+    }
+    .footer_item_wrapper, .footer_item {
+        flex-direction: column;
+    }
+    .footer_main {
+        align-items: flex-start;
+    }
+
+
+}
+
+@media screen and (max-width:676px) {
+    .conteiner {
+        max-width: none;
+    }
+
+    .navigation>li {
+        margin-right: 15px;
+    }
+
+    .logo {
+        flex-wrap: wrap;
+    }
+
+    .logo>img {
+        margin-bottom: 10px;
+    }
+}
