@@ -55,8 +55,6 @@ body {
 .navigation>li {
   display: inline-block;
   margin-right: 57px;
-
-
 }
 
 .navigation a {
@@ -64,7 +62,6 @@ body {
   font-family: GraphikLCG, sans-serif;
   font-size: 15px;
   line-height: 20px;
-
 }
 
 .buttons {
@@ -80,8 +77,6 @@ body {
   max-height: 60px;
   text-align: center;
   margin-right: 10px;
-
-
 }
 
 .buttons_first a {
@@ -203,7 +198,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 55px;
+  padding-bottom: 104px;
 }
 
 .companies_description {
@@ -225,7 +220,6 @@ body {
   justify-content: space-around;
   align-items: flex-end;
   min-width: 100%;
-  padding-bottom: 104px;
 }
 
 .projects_wrapper {
@@ -280,6 +274,7 @@ body {
 
 .projects_img {
   width: 100%;
+  margin-top: 15px;
 }
 
 .projects_primery {
@@ -295,6 +290,7 @@ body {
   flex-direction: row-reverse;
   justify-content: space-between;
   margin-bottom: 250px;
+  margin-bottom: 15px;
 }
 
 .projects_secondary:last-child {
@@ -309,6 +305,11 @@ body {
   align-content: flex-start;
   max-width: 660px;
   padding-right: 150px;
+  flex: 1 1 35%;
+}
+
+.projects_cards_img {
+  flex: 1 1 65%;
 }
 
 .projects_secondary_cards {
@@ -546,7 +547,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  max-height: 168px;
   border-left: 1px solid #979491;
 
 }
@@ -557,7 +557,6 @@ body {
 
 .work_tools_wrapper {
   background-color: #FFFFFF;
-
 }
 
 .work_tools {
@@ -708,9 +707,7 @@ body {
 
 .footer_wrapper {
   background-color: #EEEEEE;
-
 }
-
 
 .footer_item {
   display: flex;
@@ -810,276 +807,263 @@ body {
     padding: 5px 10px;
     min-height: auto;
   }
-}
 
-@media screen and (max-width:992px) {
 
-  .main_section {
-    flex-direction: column-reverse;
+  @media screen and (max-width:992px) {
 
-  }
+    .main_section {
+      flex-direction: column-reverse;
 
-  .navigation>li {
-    margin-right: 25px;
-  }
+    }
 
-  .buttons {
-    flex-direction: column;
-  }
+    .navigation>li {
+      margin-right: 25px;
+    }
 
-  .buttons_first {
-    margin-bottom: 5px;
-  }
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
-  .buttons_second {
-    margin-right: 0px;
-    margin-bottom: 5px;
-  }
+    .buttons_first {
+      margin-bottom: 5px;
+    }
 
-  .description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+    .buttons_second {
+      margin-right: 0px;
+      margin-bottom: 5px;
+    }
 
-  .projects_primery, .projects_secondary {
-    flex-direction: column;
-    margin-bottom: 100px;
-  }
+    .buttons_first, .buttons_second, .example_button {
+      min-width: 160px;
+      min-height: 60px;
+      padding: 0 5px;
+    }
 
-  .projects_primery_cards, .projects_secondary_cards {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
+    .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
-  .logo {
-    flex-wrap: wrap;
-  }
+    .projects_primery, .projects_secondary {
+      flex-direction: column;
+      margin-bottom: 100px;
+    }
 
-  .logo>img {
-    margin-bottom: 10px;
-    margin-right: 10px;
-  }
+    .projects_primery_cards, .projects_secondary_cards {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
 
-  .companies_description, .example_description, .projects_description, .primery_cards_title, .secondary_cards_title {
-    text-align: center;
-  }
+    .logo {
+      flex-wrap: wrap;
+    }
 
-  .works_cards {
-    align-items: center;
-  }
+    .logo>img {
+      margin-bottom: 10px;
+      margin-right: 10px;
+    }
 
-  .skills {
-    flex-direction: column-reverse;
-  }
+    .companies_description, .example_description, .projects_description, .primery_cards_title, .secondary_cards_title {
+      text-align: center;
+    }
 
-  .management, .management_promo, .works, .footer_main, .description_item {
-    flex-direction: column;
-    align-items: center;
-  }
+    .works_cards {
+      align-items: center;
+      margin-bottom: 20px;
+    }
 
-  .management_logo_item {
-    margin-bottom: 20px;
-  }
+    .skills {
+      flex-direction: column-reverse;
+    }
 
-  .promo_img, .management_title {
-    margin-right: 0px;
-  }
+    .management, .management_promo, .works, .footer_main, .description_item {
+      flex-direction: column;
+      align-items: center;
+    }
 
-  .management_logo {
-    border-left: 0px;
-    justify-content: center;
-  }
+    .management_logo_item {
+      margin-bottom: 20px;
+    }
 
-  .example {
-    padding: 0px 0px 0px 0px;
-  }
+    .promo_img, .management_title {
+      margin-right: 0px;
+    }
 
-  /* .footer_main {
-    align-items: flex-start;
-  } */
+    .management_logo {
+      border-left: 0px;
+      justify-content: center;
+    }
 
-  .buttons_first, .buttons_second, .example_button {
-    max-width: 80px;
-    max-height: 30px;
-    padding: 0 5px;
-  }
+    .example {
+      padding: 0px 0px 0px 0px;
+    }
 
-  .buttons_first a, .buttons_second a, .example_button a {
-    font-size: 10px;
-    line-height: 30px;
-    font-weight: 600;
-    display: block;
-    max-width: 100%;
-  }
+    .skills {
+      padding: 23px 35px 50px;
+      align-items: center;
+    }
 
-  .buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .skills {
-    padding: 23px 35px 50px;
-    align-items: center;
-  }
-
-  .skills_foto, .management_logo_item {
-    margin-left: 0px;
-  }
-
-}
-
-@media screen and (max-width:676px) {
-
-  .navigation>li {
-    margin-right: 15px;
-  }
-
-  .logo {
-    flex-wrap: wrap;
-  }
-
-  .logo>img {
-    margin-bottom: 10px;
-  }
-
-  .description_title, .example_title, .work_tools_title, .primery_cards_title, .secondary_cards_title, .secondary_section_title, .works_section_title {
-    font-size: calc(30px + (35 + 35 * 0.7) * ((100vw - 375px) / 1440));
-    margin-bottom: 15px;
-  }
-
-  .cards_title, .skills_description {
-    font-size: calc(20px + (10 + 10 * 0.7) * ((100vw - 375px) / 1440));
-    margin-bottom: 14px;
-  }
-
-  .description_text, .description_features {
-    font-size: calc(20px + (5 + 5 * 0.7) * ((100vw - 375px) / 1440));
-    margin-bottom: 15px;
-    text-align: center;
-  }
-
-  .cards_description, .example_description {
-    font-size: calc(18px + (2 + 2 * 0.7) * ((100vw-375px) / 1440));
-    margin-bottom: 10px;
-  }
-
-  .works_section_title, .example_description {
-    text-align: center;
-  }
-
-  .header_img * {
-    max-width: 80px;
-    margin-left: 5px;
-    margin-right: 0px;
-  }
-
-  .header {
-    padding: 5px 10px;
-  }
-
-  .buttons_first, .buttons_second, .example_button {
-    min-width: 80px;
-    max-height: 30px;
-    margin-left: 10px;
-  }
-
-  .companies_description {
-    font-size: calc(29px + (21 + 21 *0.7) * ((100vw - 375px) / 1440));
-    padding-bottom: 15px;
-    padding-top: 30px;
-  }
-
-  .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 52px;
-  }
-
-  .projects {
-    padding: 50px 35px;
-  }
-
-  .description_features {
-    margin-top: 10px;
-    margin-bottom: 50px;
-  }
-
-  .main_section {
-    padding: 12px 0 90px 10px;
-  }
-
-  .projects_primery, .projects_secondary {
-    margin-bottom: 50px;
+    .skills_foto, .management_logo_item {
+      margin-left: 0px;
+    }
 
   }
 
-  .projects_secondary:last-child {
-    margin-bottom: 50px;
+  @media screen and (max-width:676px) {
+
+    .navigation>li {
+      margin-right: 15px;
+    }
+
+    .buttons_first, .buttons_second, .example_button {
+      min-width: 80px;
+      min-height: 30px;
+      padding: 0 5px;
+    }
+
+    .buttons_first a, .buttons_second a, .example_button a {
+      font-size: 10px;
+      line-height: 30px;
+      font-weight: 600;
+      display: block;
+      max-width: 100%;
+    }
+
+    .logo {
+      flex-wrap: wrap;
+    }
+
+    .logo>img {
+      margin-bottom: 10px;
+    }
+
+    .description_title, .example_title, .work_tools_title, .primery_cards_title, .secondary_cards_title, .secondary_section_title, .works_section_title {
+      font-size: calc(30px + (35 + 35 * 0.7) * ((100vw - 375px) / 1440));
+      margin-bottom: 15px;
+    }
+
+    .cards_title, .skills_description {
+      font-size: calc(20px + (10 + 10 * 0.7) * ((100vw - 375px) / 1440));
+      margin-bottom: 14px;
+    }
+
+    .description_text, .description_features {
+      font-size: calc(20px + (5 + 5 * 0.7) * ((100vw - 375px) / 1440));
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .example_description {
+      font-size: calc(18px + (2 + 2 * 0.7) * ((100vw-375px) / 1440));
+      margin-bottom: 10px;
+    }
+
+    .works_section_title, .example_description {
+      text-align: center;
+    }
+
+    .header_img * {
+      max-width: 80px;
+      margin-left: 5px;
+      margin-right: 0px;
+    }
+
+    .header {
+      padding: 5px 10px;
+    }
+
+    .buttons_first, .buttons_second, .example_button {
+      min-width: 80px;
+      max-height: 30px;
+      margin-left: 10px;
+    }
+
+    .companies_description {
+      font-size: calc(29px + (21 + 21 *0.7) * ((100vw - 375px) / 1440));
+      padding-bottom: 15px;
+      padding-top: 30px;
+    }
+
+    .companies {
+      padding-bottom: 52px;
+    }
+
+    .projects {
+      padding: 50px 35px;
+    }
+
+    .description_features {
+      margin-top: 10px;
+      margin-bottom: 50px;
+    }
+
+    .main_section {
+      padding: 12px 0 90px 10px;
+    }
+
+    .projects_primery, .projects_secondary {
+      margin-bottom: 50px;
+
+    }
+
+    .projects_secondary:last-child {
+      margin-bottom: 50px;
+    }
+
+    .work_tools_title {
+      line-height: 30px;
+      padding-top: 80px;
+    }
+
+    .work_tools {
+      padding-bottom: 50px;
+    }
+
+    .example {
+      margin-top: 50px;
+      padding: 5px 10px;
+      min-height: auto;
+    }
+
+    .example_title {
+      line-height: 35px;
+    }
+
+    .example_description {
+      display: inline-block;
+      min-width: 100%;
+    }
+
+    .example_button {
+      margin-bottom: 80px;
+    }
+
+    .footer {
+      padding: 50px 10px 20px;
+    }
+
+    .list_logo {
+      align-items: center;
+      min-width: 370px;
+    }
+
+    .footer_items {
+      min-width: 100%;
+    }
+
+    .footer_main {
+      padding-bottom: 45px;
+    }
+
+    .footer_item_wrapper, .footer_item {
+      flex-direction: column;
+    }
+
+    .link {
+      margin-bottom: 15px;
+    }
+
   }
-
-
-
-  .work_tools_title {
-    line-height: 30px;
-    padding-top: 80px;
-  }
-
-  .work_tools {
-    padding-bottom: 50px;
-  }
-
-  .example {
-    margin-top: 50px;
-    padding: 5px 10px;
-    min-height: auto;
-  }
-
-  .example_title {
-    line-height: 35px;
-  }
-
-  .example_description {
-    display: inline-block;
-    min-width: 100%;
-  }
-
-  .example_button {
-    margin-bottom: 80px;
-  }
-
-  .footer {
-    padding: 50px 10px 20px;
-  }
-
-  .list_logo {
-    align-items: center;
-    min-width: 370px;
-  }
-
-  .footer_items {
-    min-width: 100%;
-  }
-
-  .description_item {
-    margin-right: 5px;
-    font-size: calc(10px + (2 + 2*0.7) * ((100vw-375px) / 1440));
-    line-height: 8px;
-  }
-
-  .footer_main {
-    padding-bottom: 45px;
-  }
-
-  .link, .works_cards {
-    margin-bottom: 10px;
-  }
-
-  .footer_item_wrapper, .footer_item {
-    flex-direction: column;
-  }
-
-
-}
