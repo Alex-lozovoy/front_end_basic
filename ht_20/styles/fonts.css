@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../assets/fonts/AnyConv.com__Montserrat-Bold.eot')
+    src:local('Montserrat-Bold'), local('Montserrat Bold'),
+    src:url('./assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Montserrat-Bold.woff') format('woff'),
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../assets/fonts/Roboto-Regular.eot');
+    src:local('Montserrat Regular'), local('Montserrat-Regular'),
+    src: url('../assets/fonts/Montserrat-Regular.woff') format('woff'),
+         url('../assets/fonts/Montserrat-Regular') format('woff2');
+}
